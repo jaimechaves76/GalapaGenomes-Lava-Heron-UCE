@@ -1,1 +1,9 @@
+https://github.com/Kinggerm/GetOrganelle.
+Here is the command of getOrganelle: 
+
+get_organelle_from_reads.py -1 /home/vdeferran/basecalled_fastq_files/LavaHeron/sequenced_data/01.RawData/STHE_1/STHE_1_CKDN250005643-1A_22T5YJLT4_L1_1.fq.gz -2 /home/vdeferran/basecalled_fastq_files/LavaHeron/sequenced_data/01.RawData/STHE_1/STHE_1_CKDN250005643-1A_22T5YJLT4_L1_2.fq.gz -t 40 -o /home/vdeferran/basecalled_fastq_files/LavaHeron/mtDNA -F animal_mt
+
+https://github.com/ANGSD/angsd
+angsd -i LavaHeron.GCA_046118985.1.bam -doFasta 2 -doCounts 1 -setMinDepth 5 -minMapQ 20 -explode 1 -out LavaHeron.GCA_046118985.1_5depth_20MQ
+angsd -i LavaHeron.GCA_046118985.1.bam -doFasta 2 -doCounts 1 -setMinDepth 10 -minMapQ 20 -explode 1 -out LavaHeron.GCA_046118985.1_10depth_20MQ
 
